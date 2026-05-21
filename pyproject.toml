@@ -1,0 +1,18 @@
+[project]
+name = "psswrd"
+version = "0.1.0"
+description = "a password manager with built in difficulty checker"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "cryptography>=48.0.0",
+    "pyperclip>=1.11.0",
+    "rich>=15.0.0",
+    "typer>=0.25.1",
+]
+
+[project.scripts]
+psswrd = "main:app"
+
+[tool.uv]
+package = true

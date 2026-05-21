@@ -1,0 +1,4 @@
+categories
+config
+main
+services

@@ -1,0 +1,4 @@
+cryptography>=48.0.0
+pyperclip>=1.11.0
+rich>=15.0.0
+typer>=0.25.1
